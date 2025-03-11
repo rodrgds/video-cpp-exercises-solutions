@@ -4,8 +4,8 @@ int main() {
   int a, b;
   int temp;
 
-  std::cout << "Introduza o valor de A: "; std::cin >> a;
-  std::cout << "Introduza o valor de B: "; std::cin >> b;
+  std::cout << "Introduz o valor de A: "; std::cin >> a;
+  std::cout << "Introduz o valor de B: "; std::cin >> b;
 
   std::cout << "Antes da troca: A = " << a << ", B = " << b << "\n";
 

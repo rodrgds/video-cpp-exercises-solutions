@@ -4,12 +4,12 @@ int main() {
   int anoNascimento;
   const int anoAtual = 2025;
 
-  std::cout << "Introduza o ano de nascimento: ";
+  std::cout << "Introduz o teu ano de nascimento: ";
   std::cin >> anoNascimento;
 
   int idade = anoAtual - anoNascimento;
 
-  std::cout << "Tem " << idade << " anos.\n";
+  std::cout << "Tens " << idade << " anos (provavelmente).\n";
 
   return 0;
 }
